@@ -1,8 +1,22 @@
+### Maven ###
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+### Test output ###
+test-output/
+screenshots/
+*.log
+surefire-reports/
+allure-results/
+allure-report/
 
 ### IntelliJ IDEA ###
 .idea
@@ -13,6 +27,7 @@ target/
 *.iws
 *.iml
 *.ipr
+out/
 
 ### Eclipse ###
 .apt_generated
@@ -38,3 +53,13 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+desktop.ini
+
+### Local tooling / scratch ###
+.env
+*.tmp
+*.bak
+scratch/
